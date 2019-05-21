@@ -16,10 +16,10 @@ Then clone the directory and make file executable:
     
 Usage:
 
-    $ ./DiscordChatDownloader.py {user_token} {channel_id} {output_file}
+    $ ./DiscordChatDownloader.py {bot_token} {channel_id} {output_file}
     or
-    $ python3 DiscordChatDownloader.py {user_token} {channel_id} {output_file}
+    $ python3 DiscordChatDownloader.py {bot_token} {channel_id} {output_file}
     
-You can get the `user_token` by following the steps [here](https://github.com/TheRacingLion/Discord-SelfBot/wiki/Discord-Token-Tutorial). 
+This is intended to be used with a Bot Token! [Here](https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord) are instructions on getting a Bot Token.
 You can get the `channel_id` by following the steps [here](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID).
 The `output_file` is simply the name of the file you wish to output the chat log to (ie `chatlog.txt`)
